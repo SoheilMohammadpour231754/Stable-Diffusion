@@ -32,18 +32,12 @@ To prepare your data for fine-tuning the Stable Diffusion model, follow these st
 
 ### Step 1: Organize Your Image Dataset
 
-Place the images you wish to use for fine-tuning inside the `./data/images/` folder. Ensure that your dataset consists of high-quality images relevant to the gaming domain or any other style you're targeting.
+Place all the images you wish to use for fine-tuning inside the `./data/images/` folder. 
 
 ### Step 2: Write Prompt for Images 
 
-#### Single Prompt (for Dreambooth)
-
-In Dreambooth, only a single well-defined prompt is used for fine-tuning all the images. This ensures that the model deeply underestand the specific theme we are aiming for.
-
-
-#### Multiple Prompt Generation using BLIP (for Keras-CV)
-
-To implement stable diffusion with Keras-CV, we require a separate prompt for each image in our dataset, in contrast to the approach in Dreambooth. We utilize the BLIP model to automatically generate descriptive captions for each image in the dataset. You can find the script in `./preparation/auto prompting using BLIP.ipynb` and follow the step-by-step guide for generating the prompts.
+- Single Prompt (for Dreambooth): <br> In Dreambooth, only a single well-defined prompt is used for fine-tuning all the images. 
+- Multiple Prompt (for Keras-CV): <br> To implement stable diffusion with Keras-CV, we require a separate prompt for each image in our dataset. Utilize the BLIP model to automatically generate descriptive captions for each image in the dataset (using the `./preparation/auto prompting using BLIP.ipynb` script). 
 
 
 
@@ -53,12 +47,18 @@ To implement stable diffusion with Keras-CV, we require a separate prompt for ea
 
 ### Using Dreambooth
 
-To do.
+In this approach, the Stable Diffusion model got fine-tuned using Dreambooth. It involves setting up the model from huggingface and fine-tuning it with given gaming characters. The fine-tuned model then is used to generate new artwork related to gaming characters.
+
 
 
 ### Using Keras-CV
 
-To do.
+In this appraoch, the Stable Diffusion model got fine-tuned using TensorFlow's Keras framework. A custom class is used for handling the training processes (including loss calculation and gradient updates) which updates some of the weight of the the diffusion model.
+
+
+
+
+
 
 <br>
 
