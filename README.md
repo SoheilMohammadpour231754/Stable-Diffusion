@@ -74,9 +74,9 @@ The fine-tuned stable diffusion model has generated a set of character images fo
 
 <table align="center">
   <tr>
-    <td><img src="generated artworks/dreambooth/a demon dressed in red and holding a sword.png" alt="Demon with sword" width="200"></td>
-    <td><img src="generated artworks/dreambooth/Elfs with arrows.png" alt="Elfs with arrows" width="200"></td>
-    <td><img src="generated artworks/dreambooth/Gandalf the gray.png" alt="Gandalf the gray" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/SoheilMohammadpour231754/Stable-Diffusion/main/generated%20artworks/dreambooth/a%20demon%20dressed%20in%20red%20and%20holding%20a%20sword.png" alt="Demon with sword" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/SoheilMohammadpour231754/Stable-Diffusion/main/generated%20artworks/dreambooth/Elfs%20with%20arrows.png" alt="Elfs with arrows" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/SoheilMohammadpour231754/Stable-Diffusion/main/generated%20artworks/dreambooth/Gandalf%20the%20gray.png" alt="Gandalf the gray" width="200"></td>
   </tr>
   <tr>
     <td align="center">A demon</td>
