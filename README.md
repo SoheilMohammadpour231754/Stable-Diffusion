@@ -51,11 +51,11 @@ To implement stable diffusion with Keras-CV, we require a separate prompt for ea
 
 ## Fine-Tuning Process
 
-#### Fine-tuning Stable Diffuison using Dreambooth
+### Approach #1 - Fine-tuning Stable Diffuison using Dreambooth
 
 To do.
 
-#### Fine-tuning Stable Diffuison using Keras-CV
+### Approach #2 - Fine-tuning Stable Diffuison using Keras-CV
 
 To do.
 
