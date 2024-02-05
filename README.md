@@ -38,10 +38,14 @@ Place the images you wish to use for fine-tuning inside the `./data/images/` fol
 
 #### Single Prompt (for Dreambooth)
 
-In Dreambooth, using a single, well-defined prompt is crucial as opposed to multiple prompts for each image. This approach ensures consistency and focus, allowing the model to deeply understand and adhere to the specific theme and style you're aiming for. A single, detailed prompt effectively guides the model's generative process, leading to more coherent and stylistically consistent outputs. The preciseness of this singular prompt is instrumental in achieving high-quality, relevant results that accurately reflect your project's vision.
+In Dreambooth, only a single well-defined prompt is used for fine-tuning all the images. This ensures that the model deeply underestand the specific theme we are aiming for.
+
 
 #### Multiple Prompt Generation using BLIP (for Keras-CV)
-For implementing stable diffusion with Keras-CV, a critical component is the creation of accurate and relevant prompts for each image in the dataset. To automate this process, the BLIP (Berkeley Language Image Program) model is employed for automatic captioning. Utilize the script located in `./prepration/auto prompting using BLIP.ipynb` to generate captions. Follow the step-by-step guide in the notebook to efficiently create descriptive captions for each image in your dataset. It's important to ensure that these captions accurately reflect the content of the images. To guarantee precision and contextual relevance, manually review and, if necessary, revise the captions. This process ensures that each image is paired with a single, descriptive prompt, optimizing the stable diffusion process in Keras-CV.
+
+To implement stable diffusion with Keras-CV, we require a separate prompt for each image in our dataset, in contrast to the approach in Dreambooth. We utilize the BLIP model to automatically generate descriptive captions for each image in the dataset. You can find the script in ./preparation/auto prompting using BLIP.ipynb and follow the step-by-step guide for generating the prompts.
+
+
 
 <br>
 
