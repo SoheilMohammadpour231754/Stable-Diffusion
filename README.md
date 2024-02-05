@@ -64,12 +64,40 @@ To do.
 
 ## Evaluation
 
-To do.
+The fine-tuned stable diffusion model has generated a set of character images for evaluation. The images confirm the model's ability to:
+- [x] Presence of Requested Object: Each image clearly displays the intended fantasy characters.
+- [x] Variation in Design: There's evident variation among characters, with differences in shapes and colors showcased.
+- [x] Background Simplicity: Characters are set against solid, non-complex backgrounds for clarity.
+- [x] Separation from Background: The subjects are well-differentiated from the backdrop, ensuring easy discernibility.
+
+### Character Variation
+
+<table align="center">
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/SoheilMohammadpour231754/Stable-Diffusion/main/generated%20artworks/dreambooth/a%20demon%20dressed%20in%20red%20and%20holding%20a%20sword.png" alt="Demon with sword" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/SoheilMohammadpour231754/Stable-Diffusion/main/generated%20artworks/dreambooth/Elfs%20with%20arrows.png" alt="Elfs with arrows" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/SoheilMohammadpour231754/Stable-Diffusion/main/generated%20artworks/dreambooth/Gandalf%20the%20gray.png" alt="Gandalf the gray" width="200"></td>
+  </tr>
+  <tr>
+    <td align="center">A demon</td>
+    <td align="center">Two Elfs</td>
+    <td align="center">A wizard</td>
+  </tr>
+</table>
+
+### Colour Variation of Same Characters
+
+<table align="center">
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/SoheilMohammadpour231754/Stable-Diffusion/main/generated%20artworks/dreambooth/Knights%20in%20blue%2C%20black%20and%20white%20with%20an%20elaborate%20helmet%20on%20their%20head.png"  width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/SoheilMohammadpour231754/Stable-Diffusion/main/generated%20artworks/dreambooth/Knights%20in%20red%2C%20black%20and%20white%20with%20an%20elaborate%20helmet%20on%20their%20head.png" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/SoheilMohammadpour231754/Stable-Diffusion/main/generated%20artworks/dreambooth/Knights%20in%20green%2C%20black%20and%20white%20with%20an%20elaborate%20helmet%20on%20their%20head.png" width="200"></td>
+  </tr>
+  <tr>
+    <td align="center">Blue Knights</td>
+    <td align="center">Red Knights</td>
+    <td align="center">Green Knights</td>
+  </tr>
+</table>
 
 
-<p align="center">
-  <img src="generated artworks/dreambooth/a knight in purple, black and white with an elaborate helmet on his head.png" alt="Knight with helmet" width="200">
-  <img src="generated artworks/dreambooth/a demon dressed in red and holding a sword.png" alt="Demon with sword" width="200" hspace="20">
-  <img src="generated artworks/dreambooth/Elfs with arrows.png" alt="Elfs with arrows" width="200" hspace="20">
-  <img src="generated artworks/dreambooth/Gandalf the gray.png" alt="Gandalf the gray" width="200" hspace="20">
-</p>
