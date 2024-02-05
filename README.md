@@ -47,6 +47,12 @@ For implementing stable diffusion with Keras-CV, a critical component is the cre
 
 ## Fine-Tuning Process
 
+#### Fine-tuning Stable Diffuison using Dreambooth
+
+To do.
+
+#### Fine-tuning Stable Diffuison using Keras-CV
+
 To do.
 
 <br>
