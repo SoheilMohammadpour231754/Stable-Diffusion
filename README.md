@@ -43,10 +43,6 @@ In Dreambooth, using a single, well-defined prompt is crucial as opposed to mult
 #### Multiple Prompt Generation using BLIP (for Keras-CV)
 For implementing stable diffusion with Keras-CV, a critical component is the creation of accurate and relevant prompts for each image in the dataset. To automate this process, the BLIP (Berkeley Language Image Program) model is employed for automatic captioning. Utilize the script located in ./auto_captioning/auto_captioning.ipynb to generate captions. Follow the step-by-step guide in the notebook to efficiently create descriptive captions for each image in your dataset. It's important to ensure that these captions accurately reflect the content of the images. To guarantee precision and contextual relevance, manually review and, if necessary, revise the captions. This process ensures that each image is paired with a single, descriptive prompt, optimizing the stable diffusion process in Keras-CV.
 
-### Step 3: placeholder
-
-to do.
-
 <br>
 
 ## Fine-Tuning Process
