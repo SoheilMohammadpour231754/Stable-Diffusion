@@ -97,4 +97,14 @@ The fine-tuned stable diffusion model has generated a set of character images fo
   </tr>
 </table>
 
+<br>
+
+## Final Report 
+
+The final step of this challenge is for each team member to create a web page using GitHub page to showcase the results of the challenge.
+- Soheil Mohammadpour: https://soheilmohammadpour231754.github.io/
+- Placeholder
+- Placeholder
+- Placeholder
+
 
