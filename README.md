@@ -43,7 +43,7 @@ In Dreambooth, only a single well-defined prompt is used for fine-tuning all the
 
 #### Multiple Prompt Generation using BLIP (for Keras-CV)
 
-To implement stable diffusion with Keras-CV, we require a separate prompt for each image in our dataset, in contrast to the approach in Dreambooth. We utilize the BLIP model to automatically generate descriptive captions for each image in the dataset. You can find the script in ./preparation/auto prompting using BLIP.ipynb and follow the step-by-step guide for generating the prompts.
+To implement stable diffusion with Keras-CV, we require a separate prompt for each image in our dataset, in contrast to the approach in Dreambooth. We utilize the BLIP model to automatically generate descriptive captions for each image in the dataset. You can find the script in `./preparation/auto prompting using BLIP.ipynb` and follow the step-by-step guide for generating the prompts.
 
 
 
