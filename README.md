@@ -1,4 +1,4 @@
-# Fine-Tuning Stable Diffusion on Gaming Assets
+# Fine-Tuning Stable Diffusion on Gaming Characters
 
 <br>
 
