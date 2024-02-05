@@ -68,8 +68,8 @@ To do.
 
 
 <p align="center">
-  <img src="generated%20artworks/dreambooth/a%20knight%20in%20purple%2C%20black%20and%20white%20with%20an%20elaborate%20helmet%20on%20his%20head.png" alt="Knight with helmet" width="200">
-  <img src="generated%20artworks/dreambooth/a%20demon%20dressed%20in%20red%20and%20holding%20a%20sword.png" alt="Demon with sword" width="200" hspace="20">
-  <img src="generated%20artworks/dreambooth/Elfs%20with%20arrows.png" alt="Elfs with arrows" width="200" hspace="20">
-  <img src="generated%20artworks/dreambooth/Gandalf%20the%20gray.png" alt="Gandalf the gray" width="200" hspace="20">
+  <img src="generated artworks/dreambooth/a knight in purple, black and white with an elaborate helmet on his head.png" alt="Knight with helmet" width="200">
+  <img src="generated artworks/dreambooth/a demon dressed in red and holding a sword.png" alt="Demon with sword" width="200" hspace="20">
+  <img src="generated artworks/dreambooth/Elfs with arrows.png" alt="Elfs with arrows" width="200" hspace="20">
+  <img src="generated artworks/dreambooth/Gandalf the gray.png" alt="Gandalf the gray" width="200" hspace="20">
 </p>
