@@ -53,7 +53,7 @@ In this approach, the Stable Diffusion model got fine-tuned using Dreambooth. It
 
 ### Using Keras-CV
 
-In this appraoch, the Stable Diffusion model got fine-tuned using TensorFlow's Keras framework. A custom class is used for handling the training processes (including loss calculation and gradient updates) which updates some of the weight of the the diffusion model.
+In this appraoch, the Stable Diffusion model got fine-tuned using TensorFlow's Keras framework. A custom class is used for handling the training processes (including loss calculation and gradient updates) which updates part of the weight of the the diffusion model.
 
 
 
